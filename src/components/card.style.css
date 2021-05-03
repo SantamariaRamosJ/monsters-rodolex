@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    background-color: #95dada;
+    background-color: #2708709a;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 25px;
@@ -15,3 +15,15 @@
 .card-container:hover{
     transform: scale(1.05);
 }
+
+@font-face {
+    font-family: monstersName;
+    src: url(../fonts/mrsmonsterout.ttf);
+  }
+  
+  .monstersName{
+    font-family: monstersName;
+    color: white;
+    letter-spacing: 2px;
+}
+
